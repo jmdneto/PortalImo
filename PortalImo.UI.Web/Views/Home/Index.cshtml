@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ChecaImovel</h1>
+    <p class="lead">Para facilitar a vida tanto de compradores, investidores, bem como profissionais do segmento imobiliário, o portal Checa Imóvel disponibiliza dados atualizados a respeito dos imóveis da cidade de São Paulo.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Veja mais &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Faça seu registro e tente!</h2>
+        <p>
+            Crie seu login e senha e realize suas pesquisas. 
+        </p>
+        <p><a class="btn btn-default" @Html.ActionLink("Registre-se", "Register", "Account")</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Como funciona?</h2>
+        <p>Após feito seu registro, basta na tela de pesquisa informar o cep desejado com o número do imóvel. O sistema também permite pesquisar apenas pelo cep, retornando assim uma listagem com os imóveis cadastrados na prefeitura de São Paulo.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Veja mais &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Indique e ganhe!</h2>
+        <p>Com você indicando, acumule pontos os quais poderão ser usados para obtenção de dados detalhados acerca do imóvel.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Veja mais &raquo;</a></p>
+    </div>
+</div>
